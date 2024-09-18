@@ -1,0 +1,21 @@
+code:
+Main code로 google colab에서 notebook 업로드를 통해 확인
+=> 목차에서 Make Predictions 이전은 모델을 훈련하는 코드로 무시해도 됨 (앞에 코드 돌릴시 파일 경로 꼬일 수 있음 (훈련할 때마다 모델 이름 달라지고..등등)
+Make Predictions 이후로 코드 돌려 보기
+과정: File 경로를 통해 확인 => File 훈련할 때와 동일하게 전처리 => 훈련된 모델 로딩 => 훈련된 모델 가지고 File 경로에 있는 test file 예측 => 예측 결과 및 정확도 확인
+
+File 경로 설명:
+'/content/drive/MyDrive/ElecourseSummer/ravdess-emotional-speech-audio/ravdess-emotional-speech-audio.zip' 
+=> "Summer_Final\Dataset\ravdess-emotional-speech-audio.zip"
+'/content/drive/MyDrive/ElecourseSummer/savee-database/savee-database.zip',
+=> "Summer_Final\Dataset\savee-database.zip"
+'/content/drive/MyDrive/ElecourseSummer/toronto-emotional-speech-set-tess/toronto-emotional-speech-set-tess.zip'
+=> "Summer_Final\Dataset\toronto-emotional-speech-set-tess.zip"
+'/content/drive/MyDrive/ElecourseSummer/models/tr_mean.npy'
+=> "Summer_Final\model\tr_mean.npy"
+'/content/drive/MyDrive/ElecourseSummer/models/tr_std.npy'
+=> "Summer_Final\model\tr_std.npy" 
+'/content/drive/MyDrive/ElecourseSummer/testfile/03-01-01-01-01-01-09.wav'
+=> "Summer_Final\testfile\03-01-01-01-01-01-09.wav"
+'/content/drive/MyDrive/ElecourseSummer/models/model_93.24.h5'
+=> "Summer_Final\model\model_93.24.h5"
